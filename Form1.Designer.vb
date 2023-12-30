@@ -37,13 +37,13 @@ Partial Class Form1
         ' 
         ' Form1
         ' 
-        AutoScaleDimensions = New SizeF(7.0F, 15.0F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(427, 101)
         Controls.Add(cmdConv)
         Icon = CType(resources.GetObject("$this.Icon"), Icon)
         Name = "Form1"
-        Text = "Convertisseur AxaBanque - v1.02 (30/12/2022)"
+        Text = "Convertisseur AxaBanque - v1.02 (30/12/2023)"
         ResumeLayout(False)
     End Sub
 
