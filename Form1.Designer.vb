@@ -22,30 +22,29 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
-        Me.cmdConv = New System.Windows.Forms.Button()
-        Me.SuspendLayout()
-        '
-        'cmdConv
-        '
-        Me.cmdConv.Location = New System.Drawing.Point(12, 12)
-        Me.cmdConv.Name = "cmdConv"
-        Me.cmdConv.Size = New System.Drawing.Size(84, 32)
-        Me.cmdConv.TabIndex = 0
-        Me.cmdConv.Text = "Ouvrir"
-        Me.cmdConv.UseVisualStyleBackColor = True
-        '
-        'Form1
-        '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(427, 101)
-        Me.Controls.Add(Me.cmdConv)
-        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Name = "Form1"
-        Me.Text = "Convertisseur AxaBanque - v1.01 (15/01/2022)"
-        Me.ResumeLayout(False)
-
+        Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(Form1))
+        cmdConv = New Button()
+        SuspendLayout()
+        ' 
+        ' cmdConv
+        ' 
+        cmdConv.Location = New Point(12, 12)
+        cmdConv.Name = "cmdConv"
+        cmdConv.Size = New Size(84, 32)
+        cmdConv.TabIndex = 0
+        cmdConv.Text = "Ouvrir"
+        cmdConv.UseVisualStyleBackColor = True
+        ' 
+        ' Form1
+        ' 
+        AutoScaleDimensions = New SizeF(7.0F, 15.0F)
+        AutoScaleMode = AutoScaleMode.Font
+        ClientSize = New Size(427, 101)
+        Controls.Add(cmdConv)
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
+        Name = "Form1"
+        Text = "Convertisseur AxaBanque - v1.02 (30/12/2022)"
+        ResumeLayout(False)
     End Sub
 
     Friend WithEvents cmdConv As Button
